@@ -49,17 +49,22 @@
         Join now and grab your free items before they run out!
       </p>
       
-      <a href="https://t.me/freeshoppinghub"
+   <a href="https://t.me/freeshoppinghub"
    target="_blank"
    class="join-btn"
    id="joinButton">
-   Join Telegram Channel
+   Join Channel
 </a>
 
     </section>
   </main>
 
  
+ <script>
+  document.getElementById('joinButton').addEventListener('click', function () {
+    fbq('track', 'Lead'); // or 'Contact'
+  });
+</script>
 </body>
 
 </html>
