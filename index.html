@@ -47,13 +47,18 @@
         No fees — Only Collect Coin and Get genuine product Free.
         Join now and grab your free items before they run out!
       </p>
-    </section>
-    <section class="info">
-      <a href="https://t.me/freeshoppinghub" class="join-btn" id="joinButton" target="_blank">Join Telegram channal </a>
+
+      <button class="join-btn" id="joinButton">
+        Join Telegram channal
+      </button>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    document.getElementById('joinButton').addEventListener('click', function () {
+      window.open('https://t.me/freeshoppinghub', '_blank');
+    });
+  </script>
 </body>
 
 </html>
